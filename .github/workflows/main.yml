@@ -1,0 +1,17 @@
+name: Powershell
+
+on: [push, pull_request]
+
+jobs:
+
+  test:
+    name: Multiple
+    
+    runs-on: [self-hosted]
+    steps:
+      - uses: actions/checkout@v3
+      - name: PowerShell script
+        run: |
+               .\c.ps1
+               .\d.ps1
+        shell: powershell
