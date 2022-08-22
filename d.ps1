@@ -1,1 +1,1 @@
-mkdir d:\workflow -Force
+rmdir d:\workflow -Force
