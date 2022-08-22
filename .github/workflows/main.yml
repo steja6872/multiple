@@ -10,8 +10,8 @@ jobs:
     runs-on: [self-hosted]
     steps:
       - uses: actions/checkout@v3
-      - name: PowerShell script
-        run: |
-               .\c.ps1
-               .\d.ps1
+      - name: create
+        run: .\c.ps1
+      - name: delete
+        run: .\d.ps1
         shell: powershell
