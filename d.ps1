@@ -1,1 +1,1 @@
-rmdir d:\workflow -Force
+rmdir d:\random -Force
